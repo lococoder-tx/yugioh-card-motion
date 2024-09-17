@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card__side {
+    @apply absolute top-0 left-0 w-full h-full text-2xl transition-all duration-[700ms] ease-in-out backface-hidden rounded-2xl overflow-hidden shadow-xl;
+  }
+
+  .card__side--back-1 {
+    @apply bg-gradient-to-br from-secondary-light to-secondary-dark;
+  }
+
+  .card__side--back-2 {
+    @apply bg-gradient-to-br from-primary-light to-primary-dark;
+  }
+
+  .card__side--back-3 {
+    @apply bg-gradient-to-br from-tertiary-light to-tertiary-dark;
+  }
+
+  .card__picture--1 {
+    @apply bg-gradient-to-br from-secondary-light to-secondary-dark;
+  }
+
+  .card__picture--2 {
+    @apply bg-gradient-to-br from-primary-light to-primary-dark;
+  }
+
+  .card__picture--3 {
+    @apply bg-gradient-to-br from-tertiary-light to-tertiary-dark;
+  }
+
+  .card__heading-span--1 {
+    @apply bg-gradient-to-br from-secondary-light/85 to-secondary-dark/85;
+  }
+
+  .card__heading-span--2 {
+    @apply bg-gradient-to-br from-primary-light/85 to-primary-dark/85;
+  }
+
+  .card__heading-span--3 {
+    @apply bg-gradient-to-br from-tertiary-light/85 to-tertiary-dark/85;
+  }
+
+  /* @media only screen and (max-width: 56.25em), only screen and (hover: none) {
+    .card {
+      @apply h-auto rounded bg-white shadow-lg;
+    }
+
+    .card__side {
+      @apply h-auto relative shadow-none rounded;
+    }
+
+    .card__side--back {
+      @apply [transform:rotateY(0deg)] clip-path-card-back;
+    }
+
+    .card:hover .card__side--front {
+      @apply [transform:rotateY(0deg)];
+    }
+
+    .card__cta {
+      @apply relative top-0 left-0 translate-x-0 translate-y-0 w-full p-16;
+    }
+
+    .card__text {
+      @apply py-4 px-12;
+    }
+
+    .card__picture {
+      @apply rounded-t;
+    }
+
+    .card__price-box {
+      @apply mb-12;
+    }
+
+    .card__price-value {
+      @apply text-6xl;
+    }
+  } */
+
+  /* section > div > div:hover ~ div:nth-child(1) {
+    transform: translateX(0);
+  }
+
+  section > div > div:hover ~ div:nth-child(2) {
+    transform: translateX(0);
+  }
+
+  section > div > div:hover {
+    transform: translateX(2rem);
+  } */
+}
