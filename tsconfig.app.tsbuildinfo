@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/card.tsx","./src/components/cardstats.tsx","./src/components/coolbutton.tsx","./src/components/modal.tsx","./src/components/playingcard.tsx","./src/components/playingcardrow.tsx","./src/components/tierscardrow.tsx","./src/layout/container.tsx"],"version":"5.6.2"}

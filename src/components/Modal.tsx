@@ -4,10 +4,9 @@ import { X } from 'lucide-react'
 interface Modal {
   onClose: () => void
   isOpen: boolean
-  selectedCard: string
 }
 
-export default function Modal({ onClose, selectedCard, isOpen }: Modal) {
+export default function Modal({ onClose, isOpen }: Modal) {
   return (
     <AnimatePresence>
       {isOpen && (

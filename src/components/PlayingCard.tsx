@@ -83,7 +83,7 @@ export const PlayingCard = forwardRef<PlayingCardRef, CardProps>(
 
     return (
       <div
-        ref={ref}
+        ref={ref as React.RefObject<HTMLDivElement>}
         onClick={onClick}
         className="group relative w-[400px] h-[600px] [perspective:150rem]"
       >
